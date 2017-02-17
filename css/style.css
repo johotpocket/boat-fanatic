@@ -1,0 +1,78 @@
+/*.img-thumbnail-style {
+max-width: 400px;
+max-height: 400px;
+border-radius: 20px;
+border: dashed 2px purple;
+}
+.img-thumbnail-container {
+text-align: center;
+background-color: beige;
+max-width: 460px;
+max-height: 460px;
+}*/
+
+.custom-flex-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow:1;
+  flex-shrink:1;
+  align-self: auto;
+  flex: 1;
+}
+.myJumbotron {
+  border-radius: 100px;
+  border: solid 10px white;
+  text-align: center;
+  background-color: navy;
+  color: white
+}
+
+.boatContainer {
+  background-color: cyan;
+  border: solid 2px black;
+  width: 50%;
+}
+
+.boatHeader {
+  position: relative;
+  top: 40px;
+  left: 12px;
+}
+
+.boatDetails {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.price {
+  position: relative;
+  bottom: 50px;
+  left: -40px;
+}
+
+.size {
+  position: relative;
+  bottom: 50px;
+  right: -40px;
+}
+
+.boat-img {
+  max-height: 300px;
+  border-radius: 20px;
+  border: solid 2px white;
+}
+
+h1, h3, p {
+  font-family: 'Playfair Display', serif;
+}
